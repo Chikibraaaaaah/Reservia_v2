@@ -1,0 +1,199 @@
+
+#body
+{
+    width: 1600px;
+    margin: auto;
+}
+
+
+.header
+{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.tablette
+{
+    
+}
+
+.header p
+{
+    padding-left: 1000px;
+}
+
+.haut
+{
+    justify-content: space-between;
+}
+
+.header_hebergement
+{
+   border-bottom: none;
+
+}
+.header_activite
+{
+    border-bottom: none;
+    color: #0065FC;
+}
+
+h1
+{
+    padding-left: 4px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+
+.recherche
+{
+    width: 50%;
+    
+}
+
+.champ
+{
+    width: 30%;
+}
+
+
+.fas.fa-search
+{
+    display: none;
+}
+
+.bouton_desktop
+{
+    display: flex;
+    background-color: #0065FC;   
+    color: white;
+    font-weight: bold;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    padding-top: 10px;
+    margin-left: 4px;
+    
+
+}
+.filtres
+{
+    width: 50%;
+    font-weight: bold;
+}
+
+    .hebergement_populaire
+    {
+        width: 30%;        
+        order:2;
+        background-color: #F2F2F2;
+        border-radius: 10px 10px 10px 10px;
+        
+    }
+
+.figure_populaire
+{
+    margin-top: 20px;
+}    
+
+.description_populaire
+{
+    font-size: 0.7em;
+}
+
+
+
+    .hebergement
+    {
+        width: 60%;
+        height: 100%;
+        order: 1;
+        background-color: #F2F2F2;
+        padding-left: 12px;
+        border-radius:  10px 10px 10px 10px;
+      
+       
+    }
+
+    #hebergement
+    {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .bp1
+    {
+        display: flex;
+        justify-content: space-around;        
+    }
+   
+
+    .hebergement_marseille
+    {
+        width: 250px;
+        height: 80%;
+    }
+
+
+    /* Activites */
+
+
+.activite_desktop
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.bp2
+{
+    height: 500px;
+  
+}
+
+
+
+.activite_marseille
+{
+    height: 40%;
+    margin-top: 12px;
+    margin-top: 40px;
+  
+}
+
+.gdeactivite_marseille
+{
+   height: 95%;
+
+}
+
+.apercu_gdeactivite
+{
+    height: 90%;
+}
+.apercu_activite
+{
+    height: 80%;
+    
+   
+}
+
+.description_activite
+{
+    padding-top: 4px;
+    padding-left: 12px;
+    font-weight: bold;
+}
+
+
+
+.footer
+{   
+    display: flex;    
+    justify-content: space-around;
+}
+   
+    
